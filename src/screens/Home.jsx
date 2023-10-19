@@ -1,10 +1,23 @@
-import React from 'react'
-import { Container } from '../components/Styles/Container/Container.styled'
+import React from 'react';
+import { HomeTitleHedingDiv, HomeSubConta, HomeWrapper } from '../components/Styles/section/Home.styled';
+import { Container } from '../components/Styles/Container/Container.styled';
 
 const Home = () => {
     return (
         <Container>
-                끄아ㅏ아아ㅏ아아아ㅏㄱ
+            <HomeWrapper>
+                <HomeSubConta>
+                        <h2>I AM </h2>
+                    </HomeSubConta>
+                    <HomeTitleHedingDiv>
+                        <h1>
+                            Front-End Developer
+                        </h1>
+                    </HomeTitleHedingDiv>
+                    <HomeSubConta>
+                        <h2>Tae Sung</h2>
+                    </HomeSubConta>
+                </HomeWrapper>
         </Container>
     )
 }

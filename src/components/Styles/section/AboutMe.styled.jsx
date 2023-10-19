@@ -1,15 +1,34 @@
 import React from 'react';
-import { styled } from 'styled-components';
+import { styled, keyframes } from 'styled-components';
 import { Tooltip } from 'react-bootstrap';
 
+const Appear = keyframes`
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+` 
+
+export const AboutMeWrapper = styled.div`
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:space-around;
+    margin-top:50px;
+`
 
 export const TechStackTooltip = styled(Tooltip)`
     & > .tooltip-inner {
+        width:100%;
         background-color:rgba(80, 140, 170, 0.9);
         color:rgba(245, 245, 245, 1);
         font-size:10px;
         text-align:left;
-        padding-top:15px;
+        padding:15px 10px 5px 10px;
     }
     & > .tooltip-arrow::before {
         border-bottom-color:rgba(80, 140, 170, 0.9);
@@ -20,14 +39,14 @@ export const AboutMeTextConta = styled.div`
     display:flex;
     align-items:stretch;
     justify-content:center;
-    padding:10px;
+    padding:30px;
 `
-export const AboutMeTextDivWrpperFirst = styled.div`
+export const AboutMeTextDivContaFirst = styled.div`
     width:30%;
     margin-right:30px;
 `
 
-export const AboutMeTextDivWrpperSecond = styled.div`
+export const AboutMeTextDivContaSecond = styled.div`
     width:46%;
     margin-left:30px;
     display:flex;
@@ -45,6 +64,9 @@ export const AboutMeDivBox = styled.div`
     margin:30px 0;
     text-align:center;
     font-size:10px;
+    &:nth-child(1) {
+        animation:${Appear} 2s;
+    }
     & > strong {
         font-size:23px;
         letter-spacing:0.1px;
@@ -77,21 +99,24 @@ export const AboutMeDivBox = styled.div`
     }
 `
 export const AboutMeHeadingDiv = styled.div `
-    width:35%;
+    width:50%;
     display:flex;
     align-items:center;
     justify-content:center;
-    padding:1em 0 1.2em 0;
+    padding:2em 0 1em 0;
+    opacity: 0;
+    animation: ${Appear} 1s both;  
 ` 
 export const AboutMeHeadingStyle = styled.h2`
-    background:linear-gradient(90deg, rgba(0,120,255,0.8) 0%, rgba(199,133,255,1) 50%, rgba(0,120,255,0.8) 100%);
+    background: linear-gradient(90deg, rgba(0,120,255,1) 0%, rgba(199,133,255,1) 50%, rgba(0,183,141,1) 100%);
     color:transparent;
     -webkit-background-clip:text;
     background-clip:text;
     font-family: 'NanumSquareNeo-Variable';
-    font-size:40px;
+    font-size:50px;
     font-weight:700;
     line-height:60px;
+    text-shadow:5px 5px 10px rgba(190, 190, 190, 0.8);
 `
 export const AboutMeText = styled.p`
     font-size:14.5px;

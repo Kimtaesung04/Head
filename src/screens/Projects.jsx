@@ -1,5 +1,5 @@
-import React from 'react'
-import { Container } from "../components/Styles/Container/Container.styled" 
+import React from 'react';
+import { Container } from "../components/Styles/Container/Container.styled" ;
 
 const Projects = () => {
     return (
