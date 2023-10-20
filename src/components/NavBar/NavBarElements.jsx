@@ -6,7 +6,7 @@ const NavBarElements = () => {
 
     return (
         <>
-        <Navbar className='sticky-top'>
+        <Navbar>
             <Container>
                 <Nav variant="underline" className="fs-5 pt-2">
                     <Nav.Item className="ps-1 pe-4">

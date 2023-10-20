@@ -44,7 +44,7 @@ export const HomeTitleHedingDiv = styled.div`
         background-clip:text;
         text-shadow:5px 5px 10px rgba(190, 190, 190, 0.8);
         opacity: 0;
-        animation: ${titleAppear} 3s 2s both;
+        animation: ${titleAppear} 3s 1s both;
     }
 `
 

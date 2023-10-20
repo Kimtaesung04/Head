@@ -15,7 +15,7 @@ const Home = () => {
                         </h1>
                     </HomeTitleHedingDiv>
                     <HomeSubConta>
-                        <h2>Tae Sung</h2>
+                        <h2>TaeSung</h2>
                     </HomeSubConta>
                 </HomeWrapper>
         </Container>
