@@ -68,16 +68,7 @@ export const AboutMeTextConta = styled.div`
 export const AboutMeTextDivContaFirst = styled.section`
     width:30%;
     margin-right:30px;
-    
-    & > div:nth-child(1) {
-        opacity: 0;
-        animation:${LeftCardAppear} 0.5s 0.2s both;
-    }
-    & > div:nth-child(2) {
-        opacity: 0;
-        animation:${LeftCardAppear} 0.5s 0.4s both;
-        padding:10px 20px 20px 20px; 
-    }
+    animation:${ LeftCardAppear } 0.6s 0.2s both;
 `
 
 export const AboutMeTextDivContaSecond = styled.section`
@@ -85,11 +76,7 @@ export const AboutMeTextDivContaSecond = styled.section`
     margin-left:30px;
     display:flex;
     align-items:stretch;
-    & > div:nth-child(1) {
-        opacity: 0;
-        animation:${RightCardAppear} 0.5s 0.6s both;
-        padding:0 28px;
-    }
+    animation:${RightCardAppear} 0.6s 0.4s both;
 `
 
 export const AboutMeDivBox = styled.article`
@@ -142,7 +129,7 @@ export const AboutMeHeadingDiv = styled.div`
     align-items:center;
     justify-content:center;
     opacity: 0;
-    animation: ${TitleAppear} 0.5s both;  
+    animation: ${TitleAppear} 0.6s both;  
 ` 
 
 export const AboutMeHeadingStyle = styled.h2`
