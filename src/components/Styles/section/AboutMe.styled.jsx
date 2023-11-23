@@ -48,8 +48,9 @@ export const TechStackTooltip = styled(Tooltip)`
         width:100%;
         background-color:rgba(80, 140, 170, 0.9);
         color:rgba(245, 245, 245, 1);
-        font-size:10px;
+        font-size:9px;
         text-align:left;
+        letter-spacing:1px;
         padding:15px 10px 5px 10px;
     }
     & > .tooltip-arrow::before {
@@ -72,7 +73,7 @@ export const AboutMeTextDivContaFirst = styled.section`
 `
 
 export const AboutMeTextDivContaSecond = styled.section`
-    width:46%;
+    width:43%;
     margin-left:30px;
     display:flex;
     align-items:stretch;
@@ -92,7 +93,7 @@ export const AboutMeDivBox = styled.article`
     text-align:center;
     font-size:10px;
     & > strong {
-        font-size:24px;
+        font-size:20px;
         letter-spacing:0.1px;
         color:rgba(0,120,255,0.8);
         font-family: 'SUITE-bold';
@@ -140,7 +141,7 @@ export const AboutMeHeadingStyle = styled.h2`
     font-family: 'NanumSquareNeo-Variable';
     font-size:50px;
     font-weight:700;
-    line-height:60px;
+    line-height:70px;
     text-shadow:5px 5px 10px rgba(190, 190, 190, 0.8);
 `
 

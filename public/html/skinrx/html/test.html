@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{margin: 0; padding: 0;}
+        li {list-style: none;}
+        a {text-decoration: none;}
+        #box_wrap {
+            width:1000px; 
+            margin: 0 auto;
+            background-color: pink;
+        }
+        .box01 {
+            width:200px; height: 100px;
+            background-color: red;
+            float: left;
+        }
+        .box02 {
+            width:200px; height: 100px;
+            background-color: blue;
+            float: left;
+        }
+        .box03 {
+            width:200px; height: 100px;
+            background-color: green;
+            float: left;
+        }
+        .box04 {
+            width:200px; height: 100px;
+            background-color: yellow;
+            float: left;
+        }
+        .box05 {
+            width:200px; height: 100px;
+            background-color: purple;
+            float: left;
+        }
+        div.iframe {
+            width:100%; height: 500px; background-color: goldenrod; clear: both;
+            box-sizing: border-box;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="box_wrap">
+        <ul>
+            <li class="box01"><a href="inner01.html" target="color">red</a></li>
+            <li class="box02"><a href="sub02.html" target="color">blue</a></li>
+            <li class="box03"><a href="sub03.html" target="color">green</a></li>
+            <li class="box04"><a href="sub04.html" target="color">yellow</a></li>
+            <li class="box05"><a href="sub05.html" target="color">purple</a></li>
+        </ul>
+        <div class="iframe">
+            <iframe frameborder="1" width="100%" height="500px" name="color"></iframe>
+        </div>
+    </div>
+</body>
+</html>

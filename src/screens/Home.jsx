@@ -11,7 +11,7 @@ const Home = () => {
                     </HomeSubConta>
                     <HomeTitleHedingDiv>
                         <h1>
-                            Front-End Developer
+                            Web Developer
                         </h1>
                     </HomeTitleHedingDiv>
                     <HomeSubConta>

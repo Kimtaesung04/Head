@@ -19,8 +19,9 @@ const AboutMe = () => {
                         <strong>Profile</strong>
                             <AboutMeText>
                             <b>이름 : 김태성</b> <br />
-                            <b>나이 : 25세 (1998년생)</b> <br />
-                            <b>직업군 : Front-End Developer</b> <br />
+                            <b>나이 : 25세(1998년생)</b> <br />
+                            <b>직업군 : Web Developer</b> <br />
+                            <b>취미 : 운동(헬스 및 다양한 체육활동)</b>
                             </AboutMeText>
                         </AboutMeDivBox>
                         <AboutMeDivBox>
@@ -98,8 +99,8 @@ const AboutMe = () => {
                         <AboutMeDivBox className='TextAlign'>
                         <strong>"변화하고 나아가는 웹 개발자"</strong>
                             <AboutMeText>
-                            저는 HTML과 CSS, JavaScript 와 React.js를 다룰수 있으며 Next.js, TypeScript 등 더 많은 프레임워크와 라이브러리를 다룰수 있도록 성장할 준비가 되어있습니다. 
-                            빠르게 변화하는 프론트엔드 시장에 발맞춰 계속해서 변화하며 나아가 웹개발분야 전체에 도움이 되는 개발자가 될 것입니다.
+                            저는 HTML과 CSS(SCSS), JavaScript 와 React.js를 다룰수 있으며 Next.js, TypeScript 등 더 많은 프레임워크와 라이브러리를 다룰수 있도록 성장할 준비가 되어있습니다. 
+                            빠르게 변화하는 웹개발 시장에 발맞춰 계속해서 변화하며 나아가 웹개발분야 전체에 도움이 되는 개발자가 될 것입니다.
                             <br />
                             <br />
                             저는 동료들과 원활하게 소통하고, 항상 경청하고 열린 자세로 받아들일 준비가 되어있습니다. 언제나 변화하고 성장해 나가는 동료가 되겠습니다.
